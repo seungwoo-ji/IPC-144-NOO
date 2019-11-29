@@ -1,0 +1,13 @@
+Name: 		Seung Woo Ji
+ID: 		swji1
+Email: 		swji1@myseneca.ca
+Section: 	NOO
+Date: 		November 20, 2019
+Description: 	Assignment 2 Milestone 4
+
+		By completing last two milestones, I learned how to use additional set of functions to further improve the contacts management system. These functions include getTenDigitPhone, findContactIndex, and other supporting functions that greatly facilitate reducing the amount of repeated codes. With functions, I also learned how to implement multiple features such as searching, adding, updating, deleting and sorting the contacts by using the cell phone number.
+	
+	Overall, the two functions findContactIndex and getTenDigitPhone significantly help me to enhance the maintenance and readability of the program. For example, the getTenDigitPhone is useful to get 10 digits numeric phone numbers in getNumbers function. Similarly, findContactIndex is used to find the index of the specific contact with the provided cell phone number when searching, updating, and deleting the contact. Thanks to these two functions, the repeated coding can be avoided and thus improve the overall readability of the program.
+	
+	For this assignment, the program would be more interesting and efficient if it included the load and save functionalities using a text data file. This is because the pre-defined contact information can be easily imported to the program and save a lot of time rather than manually entering the same information. The portability of the file also allows the programmer to easily reuse the same contact information using different platforms without concern about the loss of the data.
+ 

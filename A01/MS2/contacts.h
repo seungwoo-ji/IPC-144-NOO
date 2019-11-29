@@ -12,7 +12,7 @@
 // Structure type Name declaration
 struct Name 
 {
-    char firstName[6];
+    char firstName[31];
     char middleInitial[7];
     char lastName[36];
 };
@@ -25,7 +25,7 @@ struct Address
 	char street[41];
 	int apartmentNumber;
 	char postalCode[8];
-	char city[41];
+	char city[41];	
 };
 
 // Structure type Numbers declaration
