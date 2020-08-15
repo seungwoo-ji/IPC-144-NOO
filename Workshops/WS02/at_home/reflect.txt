@@ -1,0 +1,19 @@
+Name: 		Seung Woo Ji
+ID: 		swji1
+Email: 		swji1@myseneca.ca
+Section: 	NOO
+Date: 		Sep. 18, 2019
+Description: 	Workshop 2 - Home
+
+	By completing the workshop 2, I learned to make a C-language program that enables me to calculate the number of loonies, quarters, dimes, nickels, and pennies in order to pay the amount due with GST.
+
+	In this program, I declared GST and the number of coins(coin) variables to be double and integer data types repectively. For the amount due, I made both integer(iamountOwing) and double(damountOwing) data type variables as the integral operands are required to excute modulus operations. The scanf function was used to accept the input from an user, but I had to define _CRT_SECURE_NO_WARNINGS beforehand to repress the security warning by the visual studio. 
+
+	Interestingly,I noticed that the actual number stored in the memory was different from the displayed output for the double data type. This would cause more inprecision if a number of arithmetic calculations were operated based on floating-point values. In order to avoid such consequences, I converted the double-typed amount due variable to ingeral data type by multiplying it by 100 - the ingetral amount due now represented in cents. Furthermore, I had to add a half cent(0.5) to the integral amount due before it got truncated by casting from double to integer data type to show the correct value.
+	
+	Lastly, I made use of modulus operation to find the remainder. The modulus operation was truely useful to calculate the remaining amount due after finding the number of coins required as it involves less operations than using division and substraction.
+
+
+
+
+
