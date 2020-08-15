@@ -8,7 +8,7 @@ In this workshop, I learned:
 * to login to a remote host using an SSH client
 * to transfer source code between a local computer and a remote host using an SFTP client
 
-## Workshop 2: 
+## Workshop 2: Computations
 
 In this workshop, I learned:
 * to declare variables of integral and floating point types
@@ -16,7 +16,7 @@ In this workshop, I learned:
 * to accept a numerical value from the user using scanf
 * to cast a value from one data type to another
 
-## Workshop 3:
+## Workshop 3: Logic
 
 In this workshop, I learned:
 * to create a simple interactive program
