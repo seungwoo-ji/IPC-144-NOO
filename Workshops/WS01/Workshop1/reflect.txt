@@ -1,0 +1,8 @@
+Name: 		Seung Woo Ji
+ID: 		swji1
+Email: 		swji1@myseneca.ca
+Section: 	NOO
+Date: 		Sep. 11, 2019
+Description: 	Workshop 1 - Home
+
+By completing the workshop 1, using Visual Studio IDE 2019, I learned how to make a project and a basic C language program displaying "Welcome to C Programming". I also learned to be able to login into the matrix server with a SSH application such as Putty and transfer the files with winSCP program. All of these practices were extremely helpful to me because not only I got more famialrized with those programs, but also I learned that the small mistakes like leaving a space between the codes can end up making an fatal error. 
