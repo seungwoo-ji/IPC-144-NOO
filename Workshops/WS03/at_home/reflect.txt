@@ -1,0 +1,12 @@
+Name: 		Seung Woo Ji
+ID: 		swji1
+Email: 		swji1@myseneca.ca
+Section: 	NOO
+Date: 		Sep. 25, 2019
+Description: 	Workshop 3 - Home
+
+By completing the workshop 3, I learned to make a C-language program that analyzes the low and high temperatures in 4-day periods. Before getting into the coding part, I made a simple pseudo-coding of the program to depict the step-by-step outlines. This preliminary design technique greatly helped me to understand the logic how to solve the problem and to plan the coding in more clear and concise manner.
+
+In the program, I used the combination of "for" and "do while" iteration constructs. The "for" loop was very handy here because I already knew the maximum number of days to record the temperatures. After that, I used a nested "do while" iteration construct in order to prompt the user to register the high and low temperatures for each NUMS day. I also employed the binary selection construct to force the user to enter the temperatures within the range of -40 to 40. Eventually, the user is only able to escape the loop when the flag variable, invalid, is equal to 0 - only possible when the user input is within the acceptable range of the temperature. At the end of the "for" loop, two optional path constructs determine the lowest and highest temperatures in 4 days. For example, if the highest temperature is lower than the day 2 high temperature, the highest temperature and its day get newly updated with the user input. Lastly, I made the calculations of the mean temperatures based on the total temperatures and implemented them in the printf statements. In this way, I was able to reduce the number of variables and unnecessary steps to find the results.
+
+Overall, this activity was a great practice to exercise the selective and iteration constructs. Most of all, I spent very difficult time determining the best suitable loop for different situations. In this end, I made use of "do while" loop in my program because it executes its sequences at least once to prompt the user to enter the value.
