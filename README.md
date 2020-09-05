@@ -23,3 +23,10 @@ In this workshop, I learned:
 * to code a decision using a selection construct
 * to code repetitive logic using an iteration construct
 * to nest a logical block within another logical block
+
+## Workshop 4: Array
+
+In this workshop, I learned:
+* to store data of common type using an array structure
+* to associate related data using parallel arrays
+* to process the elements of an array using an iteration construct
