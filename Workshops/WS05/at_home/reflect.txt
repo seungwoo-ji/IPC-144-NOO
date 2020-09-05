@@ -1,0 +1,12 @@
+Name: 		Seung Woo Ji
+ID: 		swji1
+Email: 		swji1@myseneca.ca
+Section: 	NOO
+Date: 		Oct. 9, 2019
+Description: 	Workshop 5 - Home
+
+Throughout the workshop 5, I learned how to use a structure type in order to store different types of data and, subsequently, how to define an object of a structure. I also learned to use a dot operator to access a member of an object in a structure type.
+
+In this program, I made use of an array of structures to store the employee information. This is because the array of structures can store different types of variables in a single object. For example, I was able to store not only integer-typed employee id and age but also double-typed salary into one object - emp of Employee data type. Secondly, the array of structures can keep the variables more organized and distinguishable than parallel arrays. This allowed me to have short and readable code in the program. On the other hand, if parallel arrays were used, I would have to declare three arrays to store each employee information and rely on the index number to keep track of data for each employee.
+
+Even though I declared Employee struct in emp_athome.c file in this workshop, it is often a best practice to declare the structure in a header file. In this way, its declaration can be made portable and used globally across every C source file that employees this structure data type. Thus, if I wanted to add an extra member to store employee name in the Employee structure, I would simply need to edit the structure type in the header file.
