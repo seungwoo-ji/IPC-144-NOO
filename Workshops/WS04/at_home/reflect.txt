@@ -1,0 +1,14 @@
+Name: 		Seung Woo Ji
+ID: 		swji1
+Email: 		swji1@myseneca.ca
+Section: 	NOO
+Date: 		Oct. 2, 2019
+Description: 	Workshop 4 - Home
+
+In this workshop 4, I learned how to make an array structure to store the date of common type contiguously in memory. I also learned how to use two parallel arrays to associate the elements of low and high temperatures and, subsequently, how to access the elements by using the same index number.
+
+Using the array, I was able to store the multiple data of the same type in a single data structure. This made my program considerably simple and short because, otherwise, I would have to define a large number of variables in order to store each individual value of low and high temperatures separately.
+
+Furthermore, the matching arrays of temperatures and days allowed me not only to store the data more efficiently but also to easily access the low and high temperatures by using the same index number. However, the maximum number of elements in the array made me unable to alter its size later once the array was declared.  This forced me to know the exact number of its size beforehand because any unused memory space would be wasted if the array size were bigger than required. In the same way, the program would cause an error if more elements were added than its size.
+
+Since the index number of elements starts at 0 and finishes at one less than the size of the array, I set the iterator variable value as zero. As a result, I was able to associate the index number of arrays with the iterator variable. 
