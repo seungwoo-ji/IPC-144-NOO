@@ -30,3 +30,10 @@ In this workshop, I learned:
 * to store data of common type using an array structure
 * to associate related data using parallel arrays
 * to process the elements of an array using an iteration construct
+
+## Workshop 5: Structures
+
+In this workshop, I learned:
+* to store data of different types using a structure type
+* to declare an object of structure type
+* to access the members of an object of structure type
